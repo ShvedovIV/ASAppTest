@@ -22,7 +22,6 @@ namespace ASApp.Models
 
         
         [HttpGet(Name = "GetBuyer")]
-        //[HttpGet]
         public ActionResult<List<Buyer>> GetAll() =>
             BuyerRep.GetAll();
 

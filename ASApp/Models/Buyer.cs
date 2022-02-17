@@ -13,7 +13,7 @@ namespace ASApp.Models
         [MaxLength(40, ErrorMessage= "This field must contain between 2 and 40 characters")]
         [MinLength(2, ErrorMessage= "This field must contain between 2 and 40 characters")]
         public string Name {get; set;} = default!;
-        public virtual ICollection<Sale> SaleIds {get; set;} = default!;  //TODO
+        public virtual ICollection<Sale> SaleIds {get; set;} = default!;  
          
     }
 }
